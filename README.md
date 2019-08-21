@@ -2,7 +2,7 @@
 This repository contains the code we used for our experiments presented in the paper "Learning fair rule lists"
 
 The file `genParetoCrossValMultithrV2.py` can be used to build the Pareto Front using grid search on Lambda.
-The file `genParetoCrossValMultithrV3.py` can be used to build the Pareto Front using the Hyperopt library to automatically optimize the value of Lambda.
+The file `genParetoCrossValMultithrV3.py` can be used to build the Pareto Front using the Hyperopt library (https://github.com/hyperopt/hyperopt) to automatically optimize the value of Lambda using the provided Tree of Parzen Estimators method.
 Usage :
 > genParetoCrossValMultithrVx.py dataset_name -p protected_attribute_column
 
