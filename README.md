@@ -4,7 +4,7 @@ This repository contains the code we used for our experiments presented in the p
 The file `genParetoCrossValMultithrV2.py` can be used to build the Pareto Front using grid search on Lambda.
 The file `genParetoCrossValMultithrV3.py` can be used to build the Pareto Front using the Hyperopt library (https://github.com/hyperopt/hyperopt) to automatically optimize the value of Lambda using the provided Tree of Parzen Estimators method.
 Usage :
-> genParetoCrossValMultithrVx.py dataset_name -p protected_attribute_column
+> python genParetoCrossValMultithrVx.py dataset_name -p protected_attribute_column
 
 Where :
 * `x` is either `2` or `3`
@@ -14,4 +14,7 @@ Where :
 NB : All other parameters (maximum number of nodes to be explored, values of Lambda for grid search, maximum number of iterations allowed for Hyperopt, unsensitive attribute column or specification, etc.) can be set easily at the beginning of each script's body.
 
 The file `audit_mdl.py` can be used to produce a feature dependence analysis of a given model.
+Usage :
+> python audit_mdl.py
+
 All parameters and file requirements can be found in the script's comments.
