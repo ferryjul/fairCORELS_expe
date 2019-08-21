@@ -5,6 +5,7 @@ The file `genParetoCrossValMultithrV2.py` can be used to build the Pareto Front 
 The file `genParetoCrossValMultithrV2.py` can be used to build the Pareto Front using the Hyperopt library to automatically optimize the value of Lambda.
 Usage :
 > genParetoCrossValMultithrVx.py dataset_name -p protected_attribute_column
+
 Where :
 * `x` is either `2` or `3`
 * `dataset_name` can be either `adult`, `compas`, `german_credit`, or `default_credit`
