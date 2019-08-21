@@ -1,0 +1,1 @@
+{sex:Male,age:18-20}~1;default~0
