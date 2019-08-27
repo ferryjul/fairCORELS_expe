@@ -1,4 +1,4 @@
-# fairCORELS
+# fairCORELS_expe
 This repository contains the code we used for our experiments presented in the paper "Learning fair rule lists"
 
 The file `genParetoCrossValMultithrV2.py` can be used to build the Pareto Front using grid search on Lambda.
